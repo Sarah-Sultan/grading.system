@@ -4,6 +4,7 @@ from tkinter import messagebox
 
 def calculate_grade():
     marks = entry_marks.get()
+    print("sarah")
 
     if marks == "":
         messagebox.showerror("error","please enter marks")
